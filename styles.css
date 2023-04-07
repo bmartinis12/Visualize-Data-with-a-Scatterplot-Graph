@@ -1,0 +1,50 @@
+* { margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#7bed9f, #ff7f50, #ff4757);
+}
+
+#main {
+    border-radius: 20px;
+    padding: 20px;
+    background: #f1f2f6;
+}
+
+
+#title, #subTitle {
+    text-align: center;
+    margin-top: 20px;
+    color: #2f3542;
+} 
+
+
+.tool-tip {
+    position: absolute;
+    visibility: hidden;
+    z-index: 10;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #2ed573;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: .8em;
+    color: black;
+}
+
+#x-axis text, #y-axis text {
+    font-size: 1.2em;
+    fill: #2f3542;
+    font-weight: bold;
+}
+#legend {
+    font-size: .8em;
+}
